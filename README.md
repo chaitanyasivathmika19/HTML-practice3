@@ -1,7 +1,7 @@
 # My Practice Web Page
 
 This is a practice HTML web page where I have explored various HTML elements, attributes, and inline styling.
-
+I have learned using many websites like GeeksforGeeks, W3Schools, and others.
 ## Features
 
 - **Headings & Paragraphs**
@@ -47,4 +47,4 @@ This is a practice HTML web page where I have explored various HTML elements, at
 
 ## Author
 
-**Chaitanya Sivathmika**
+**Chaitanya Sivathmika Yalamandala**
