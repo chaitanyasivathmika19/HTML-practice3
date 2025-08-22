@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #demo {
+        color: green;
+      }
+      #link {
+        border: 2px solid #007acc;
+        margin: 10px;
+        padding: 4px;
+        text-decoration: none;
+        color: #007acc;
+        font-weight: bold;
+      }
+
+      #link:hover {
+        background-color: #007acc;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="link" href="/home.html" accesskey="h">Home</a>
+    <pre>
+functionality. Elements are the basic
+         building blocks of a webpage and can
+         
+         
+                              represent different types of content, such as text, links, images,  
+                            (This is using pre tag spaces and extra lines are not removed in pre tag)</pre
+    >
+    <p>
+      functionality. Elements are the basic building blocks of a webpage and can
+      represent different types of content, such as text, links, images,<br />
+      (This is using pre tag spaces and extra lines are removed in p tag)
+    </p>
+
+    <p title="This is paragraph tag">
+      Move the cursor over the heading and paragraph, and you will see a
+      description as a tooltip
+    </p>
+    <a href="https://www.javatpoint.com/html-anchor"
+      >This is a link to learn html anchor tag
+    </a>
+
+    <h1 id="demo">Welcome to My Practice web page</h1>
+
+    <h2 id="heading2">contenteditable attribute</h2>
+    <p contenteditable="true">
+      This para is contenteditable para so you can edit the text here
+    </p>
+    <input type="text" placeholder='Enter your "username" here' />
+    <input type="checkbox" />
+    <span style="color: red">
+      these are used with input fields in forms but input field is inline
+      element so everthing comes in single line even achor tag too
+    </span>
+    <a href="https://www.javatpoint.com/html-tutorial">Click on link</a>
+    <span style="background-color: lightblue">this is inline element</span>
+
+    <br />
+    There are some tabindex attributes you can see them used tab key in keyboard
+    <a href="https://ide.geeksforgeeks.org/tryit.php" tabindex="2"
+      >Try it Editor</a
+    >
+
+    <br />
+    <a href="https://www.geeksforgeeks.org/" tabindex="1">
+      learn from this website too</a
+    >
+    <br />
+    <a href="https://ide.geeksforgeeks.org/" tabindex="3">
+      another website to learn
+    </a>
+    <br />
+    <button
+      id="btn1"
+      class="button-class"
+      type="button"
+      onclick="handleClick()"
+    >
+      Submit
+    </button>
+    <input type="file" name="picture" accept=".ppt,.pptx,.pdf" />
+
+    <br />
+    <a href="https://ide.geeksforgeeks.org/" accesskey="e"
+      >Example Link (Alt + e)</a>
+    <button accesskey="s">Submit (Alt + s)</button><br />
+    <hr />
+
+    <form action="/home.html" method="post" id="users">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="name"
+        id="username"
+        autocomplete="on"
+      /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="pass" id="password" />
+    </form>
+    <br />
+    <button onclick="myGeeks()">Submit</button><br /><br />
+    <div style="text-align: center">center aligned text</div>
+
+    <p>
+      I am good in
+      <del id="GFG" cite="www.geeksforgeeks.org"> mathematical </del>
+      <ins>coding languages</ins> like c, java also web lanuguagues
+    </p>
+  </body>
+</html>
